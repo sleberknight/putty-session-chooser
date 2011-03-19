@@ -1,0 +1,20 @@
+If you are ever developing on Windows and you use PuTTy a lot, if
+you're like me you don't want to have to open the PuTTy session chooser GUI
+and select it via the mouse, etc. PuTTy session chooser lets you type the
+'psc' command (a .bat file) and it displays a list of available PuTTy sessions
+from which you can choose. For example:
+
+C:\dev\projects\putty-session-chooser>psc
+0. Quit this program
+1. alpha
+2. beta
+3. delta
+4. epsilon
+5. gamma
+Choose session:
+
+Once you choose a PuTTy session, it's opened immediately in a PuTTy window.
+
+Put psc.rb and psc.bat somewhere on your system and make sure psc.bat is in
+your PATH. Also, you'll need to change psc.bat to point to wherever you actually
+put the psc.rb script.
